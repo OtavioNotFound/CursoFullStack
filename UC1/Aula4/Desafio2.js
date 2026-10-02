@@ -4,9 +4,9 @@ let maisQuatroMil = [];
 let melhorMes = 0;
 
 for (let venda of vendasMes) {
-    totalDoAno += vendasMes[venda];
-    if (vendasMes[venda] >= 4000) maisQuatroMil.push(vendasMes[venda]);
-    if (vendasMes[venda] > melhorMes) melhorMes = vendasMes[venda];
+    totalDoAno += venda;
+    if (venda >= 4000) maisQuatroMil.push(venda);
+    if (venda > melhorMes) melhorMes = venda;
 }
 
 let mediaPorMes = totalDoAno / vendasMes.length;
