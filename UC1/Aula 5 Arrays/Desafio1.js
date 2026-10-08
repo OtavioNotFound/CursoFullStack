@@ -1,11 +1,15 @@
-const lista = [];
-const itens = ["Pen drive 64GB", "Cabo HDMI", "Mousepad"];
+const lista = []
+const itens = ["Pen drive 64GB", "Cabo HDMI", "Mousepad"]
 
-itens.forEach((item) => lista.push(item));
-lista.pop();
-lista.push("Hub USB");
+for (let i = 0; i < itens.length; i++) {
+  lista.push(itens[i])
+}
 
-console.log(`Itens: ${lista.length}`);
-lista.forEach((item, index) => {
-  console.log(`${index + 1}. ${item}`);
-});
+lista.pop()
+lista.push("Hub USB")
+
+console.log(`Itens: ${lista.length}`)
+
+for (let i = 0; i < lista.length; i++) {
+  console.log(`${i + 1}. ${lista[i]}`)
+}

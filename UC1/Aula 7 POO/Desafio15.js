@@ -1,12 +1,12 @@
-let tarefas = ["Lavar louça", "Estudar JavaScript", "Fazer exercício"];
+let tarefas = ["Lavar louça", "Estudar JavaScript", "Fazer exercício"]
 
-tarefas.push("Comprar mantimentos");
+tarefas.push("Comprar mantimentos")
 
-const indice = tarefas.indexOf("Fazer exercício");
+const indice = tarefas.indexOf("Fazer exercício")
 if (indice !== -1) {
-  tarefas.splice(indice, 1);
+  tarefas.splice(indice, 1)
 }
 
-tarefas.forEach((tarefa, index) => {
-  console.log(`${index + 1}. ${tarefa}`);
-});
+for (let i = 0; i < tarefas.length; i++) {
+  console.log(`${i + 1}. ${tarefas[i]}`)
+}

@@ -1,7 +1,7 @@
-let cursos = ["JavaScript", "HTML", "CSS"];
+let cursos = ["JavaScript", "HTML", "CSS"]
 
 if (!cursos.includes("Python")) {
-  cursos.push("Python");
+  cursos.push("Python")
 }
 
-console.log(cursos);
+console.log(cursos)

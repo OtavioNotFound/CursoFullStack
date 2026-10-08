@@ -1,3 +1,3 @@
-let paises = ["Brasil", "Argentina", "Chile", "Peru", "Equador"];
+let paises = ["Brasil", "Argentina", "Chile", "Peru", "Equador"]
 
-console.log(paises.includes("Chile"));
+console.log(paises.includes("Chile"))
